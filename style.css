@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-size: 35px;
+}
+.about-me, .portfolio, .contact {
+    padding-bottom: 200px;
+}
+
+hr {
+    border-width: thick;
+    border-color: grey;;
+}
+body {
+    background-size: cover;
+}
+.navbar {
+    background-color: grey;
+    height: 60px;
+}
+.name {
+    background-color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+.container {
+    padding-top: 200px;
+
+}
+.page-header {
+    font-size: 50px;
+    font-weight: bolder;
+}
+footer {
+    position: relative;
+}
+.copyright {
+    font-size: medium;
+    font-weight: bold;
+}
