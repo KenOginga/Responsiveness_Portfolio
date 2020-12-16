@@ -11,132 +11,111 @@
 </head>
 
 <body>
-    <header class="name">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
-            <a class="navbar-brand" href="#">Kennedy Oginga</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="index.html" target="_self" rel="stylesheet">About Me <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="./HTML/portfolio.html" target="_self">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./HTML/contact.html" target="_self">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Kennedy Oginga</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Social Media</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-
-        <div class="row h-100 align-items-center justify-content-center text-center">
-            <div class="col-lg-10 align-self-end">
-                <h1 class="text-uppercasefont-weight-bold">Hello, This is Kennedy. Welcome to My Portfolio Page</h1>
-                <hr class="divider my-4">
-            </div>
-            <div class="col-lg-8 align-self-baseline">
-                <p class="text-white-75 font-weight-light mb-5">I am an upcoming web developer. I love coding. So far it has proved challenging but fun</p>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-white font-weight-bold">Hello, This is Kennedy. Welcome to My Portfolio Page</h1>
+                    <hr class="divider my-4"/>
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 font-weight-light mb-5">I am an upcoming web developer. I love coding. So far it has proved challenging but fun</p>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
+                </div>
             </div>
         </div>
     </header>
 
-    <!-- <div class="about-me">
-        <div class="container  h-100 border  p-5" style="background-color: transparent; margin-top: 90px;">
+    <section class="page-section" id="services">
+        <div class="container">
+            <h2 class="text-center mt-0">Where to find me</h2>
+            <hr class="divider my-4" />
             <div class="row">
-                <div class="col-12">
-                    <h1>About Me</h1>
-                    <hr>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fab fa-4x fa-instagram text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"><a href="https://instagram.com/kenogonda/" target="_blank">Instagram</a></h3>
+                        <p class="text-muted mb-0">Come follow me on Instagram</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 mb-5" style="display: inline;">
-                    <img src="./images/myImage.jpg" alt="My Picture" class="img-responsive float-left mr-2 mb-1" style="height: 100%; width: 60%;">
-                    <p class ="p-about-me" style="display: inline; font-size: 20px; font-weight: 500; background-color: white;">
-                        I am Kennedy Oginga. An upcoming web developer living in Houston, Texas. My background is mostly in oil and gas so I am ccurrently in the process of making
-                        some career changes. I developed interest in coding while taking modeling during my graduate studies at Baylor University studying geology.
-                        That interest drove me to enrol for my second bachelors at Oregon State University studying Computer Science. Currently my core competencies are in:
-                        HTML, CSS and Javascript.
-                    </p>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fab fa-4x fa-linkedin text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"><a href="https://linkedin.com/in/kennedyoginga" target="_blank">LinkedIn</a></h3>
+                        <p class="text-muted mb-0">Let's get connected in LinkedIn</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio h-100 mt-5 bg-dark text-black">
-        <div class="container border" style="background-color: white;">
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1>Portfolio</h1>
-                    <hr>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fab fa-4x fa-facebook-square text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"><a href="https://facebook.com/ken.mcoginga" target="_blank">Facebook</a></h3>
+                        <p class="text-muted mb-0">Send me a request or follow me on Facebook</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 d-lg-inline mb-5">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fab fa-4x fa-github text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"><a href="https://github.com/KenOginga" target="_blank">Github</a></h3>
+                        <p class="text-muted mb-0">Check out some of my work</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="contacts h-100">
-        <div class="container border p-10" style="background-color: white; margin-top: 100px; opacity: 100%;">
-            <div class="row">
-                <div class="col" style="margin: auto;">
-                    <h1>Contacts</h1>
-                    <hr>
-                </div>
-            </div>
-
-            
-            <div class="container">
+    </section>
+    <section>
+        <div class="page-section" id="portfolio">
+            <h2 class="text-center mt-0">My Applications</h2>
+            <hr class="divider my-4"/>
+            <div class="container-fluid p-0">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fab fa-4x fa-instagram text-primary mb-4" style="color: black;"></i>
-                            <h3 class="h4 mb-2">Instagram</h3>
-                            <p class="text-muted mb-2">Come follow me on Instagram</p>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Burger Logger</h5>
+                                <p class="card-text">This application is a resturant app that lets users input the name of the burgers they'd like to eat. Whenever a user submits a burger's name, the application displays the burger on the left side of the page waiting to be devoured. Each burger in the waiting area has a "devour it" button. When the user clicks it, the burger will move on the right side of the page.</p>
+                                <a href="https://sheltered-waters-40955.herokuapp.com/" class="btn btn-primary" target="_blank">Check it out</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fab fa-4x fa-linkedin text-primary mb-4"><a href="www.linkedin.com/in/kennedyoginga"></a></a></i>
-                            <h3 class="h4 mb-2">LinkedIn</h3>
-                            <p class="text-muted mb-2">Let's get connected in LinkedIn</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fab fa-4x fa-facebook-square text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Facebook</h3>
-                            <p class="text-muted mb-2">Send me a request or follow me on Facebook</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fab fa-4x fa-github text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Github</h3>
-                            <p class="text-muted mb-2">Check out my work</p>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Note Taker</h5>
+                                <p class="card-text">This app is basically a note taker application running on browser. 
+                                    The application is used to write and save notes and once the user is done, he/she has the option to delete the notes. 
+                                    The application uses an express backend, saves and retrieves note data from JSON file. 
+                                    Frontend was created using HTML and javascript while the backend was created using NodeJS.</p>
+                                <a href="https://shrouded-wave-96629.herokuapp.com/" class="btn btn-primary" target="_blank">Check it out</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <section class="page-section h-50 bg-dark text-white">
+    <section class="page-section bg-dark text-white">
         <div class="container text-center">
             <h2 class="mb-4">My Resume</h2>
             <a class="btn btn-light btn-xl" href="#">Download!</a>
         </div>
     </section>
-    
+
     <section class="page-section" id="contact">
         <div class="container">
             <div class="row justify-content-center">
@@ -154,19 +133,16 @@
                 <div class="col-lg-4 mr-auto text-center">
                     <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                     <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                    <!-- <a class="d-block" href="mailto:kn.oginga@gmail.com">kn.oginga@gmail.com</a>
+                    <a class="d-block" href="mailto:contact@yourwebsite.com">kn.oginga@gmail.com</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bd-footer text-center" style="background-color: grey; margin-top: 400px;">
-        <div class="container">
-            <p class="copyright">
-                &copy; Copyright 2020
-            </p>
-        </div>
-    </footer> --> -->
+
+    <footer class="bg-light py-5">
+        <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Kennedy Oginga</div></div>
+    </footer>
 </body>
 
 </html>
