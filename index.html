@@ -14,7 +14,6 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">Kennedy Oginga</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
@@ -30,16 +29,32 @@
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
-                    <h1 class="text-uppercase text-white font-weight-bold">Hello, This is Kennedy. Welcome to My Portfolio Page</h1>
+                    <h1 class="text-uppercase text-white font-weight-bold">Welcome to My Website</h1>
                     <hr class="divider my-4"/>
-                </div>
-                <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">I am an upcoming web developer. I love coding. So far it has proved challenging but fun</p>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
                 </div>
             </div>
         </div>
     </header>
+    <section class="page-section" id="aboutMe">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <hr class="divider my-4">
+            <!-- <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src=".." alt="my image about me">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
 
     <section class="page-section" id="services">
         <div class="container">
@@ -77,30 +92,72 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="page-section" id="portfolio">
             <h2 class="text-center mt-0">My Applications</h2>
             <hr class="divider my-4"/>
-            <div class="container-fluid p-0">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
+            <div class="container-fluid p-5">
+                <div class="row justify-content-center">
+                    <div class="card-group">
+                        <div class="card ml-2 mr-2" style="width: 30rem;">
+                            <div class="h-50">
+                                <img src="images/burger_logger.PNG" class="card-img-top h-100" alt="burger logger screenshot">
+                            </div>
+                            
                             <div class="card-body">
-                                <h5 class="card-title">Burger Logger</h5>
-                                <p class="card-text">This application is a resturant app that lets users input the name of the burgers they'd like to eat. Whenever a user submits a burger's name, the application displays the burger on the left side of the page waiting to be devoured. Each burger in the waiting area has a "devour it" button. When the user clicks it, the burger will move on the right side of the page.</p>
-                                <a href="https://sheltered-waters-40955.herokuapp.com/" class="btn btn-primary" target="_blank">Check it out</a>
+                            <h5 class="card-title">Burger Logger</h5>
+                            <div style="height: 100px;">
+                                <p class="card-text">This application is a resturant app that lets users input the name of the burgers they'd like to eat.</p>
+                            </div>
+                            
+                            <a href="https://sheltered-waters-40955.herokuapp.com/" class="btn btn-primary" target="_blank">Deployed</a>
+                            <a href="https://github.com/KenOginga/burger_logger" class="btn btn-primary" target="_blank">GitHub</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
+
+                        <div class="card" style="width: 30rem;">
+                            <div class="h-50">
+                                <img src="images/vita.png" class="card-img-top" alt="note taker screenshot">
+                            </div>
                             <div class="card-body">
-                                <h5 class="card-title">Note Taker</h5>
+                            <h5 class="card-title">VITA (Vehicle Information Tracking Application)</h5>
+                            <div style="height: 100px;">
+                                <p class="card-text">This is an application for built for small business that would like to keep track of vehicles within their fleet.</p>
+                            </div>
+                            <a href="https://sheltered-waters-40955.herokuapp.com/" class="btn btn-primary" target="_blank">Deployed</a>
+                            <a href="https://github.com/KenOginga/burger_logger" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card ml-2" style="width: 30rem;">
+                            <div class="h-50">
+                                <img src="images/note_taker.PNG" class="card-img-top" alt="note taker screenshot">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Note Taker</h5>
+                            <div style="height: 100px;">
                                 <p class="card-text">This app is basically a note taker application running on browser. 
-                                    The application is used to write and save notes and once the user is done, he/she has the option to delete the notes. 
-                                    The application uses an express backend, saves and retrieves note data from JSON file. 
-                                    Frontend was created using HTML and javascript while the backend was created using NodeJS.</p>
-                                <a href="https://shrouded-wave-96629.herokuapp.com/" class="btn btn-primary" target="_blank">Check it out</a>
+                                    The application is used to write and save notes and once the user is done, he/she has the option to delete the notes.</p>
+                            </div>
+                            
+                            <a href="https://shrouded-wave-96629.herokuapp.com/" class="btn btn-primary" target="_blank">Deployed</a>
+                            <a href="https://github.com/KenOginga/note_taker" class="btn btn-primary" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="card ml-2" style="width: 30rem;">
+                            <div class="h-50">
+                                <img src="images/day_planner.PNG" class="card-img-top" alt="note taker screenshot">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Day Planner</h5>
+                            <div style="height: 100px;">
+                                <p class="card-text">This is a simple calendar application that allows a user to save events for each hour of the day.</p>
+                            </div>
+                            
+                            <a href="https://kenoginga.github.io/day_planner/" class="btn btn-primary" target="_blank">Deployed</a>
+                            <a href="https://github.com/KenOginga/day_planner" class="btn btn-primary" target="_blank">Github</a>
                             </div>
                         </div>
                     </div>
